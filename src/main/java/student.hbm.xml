@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+ <class name="com.hibernate.orm.demo.Student" table="stud_info">
+ <id name= "studId" column="stud_id" type="int"></id>
+ <property name="studName" column="stud_name" type="string"></property>
+ <property name="age" column="stud_age" type="int"></property>
+ <property name="fees" column="stud_fees" type="double"></property>
+ <property name="email" column="stud_email" type="string"></property>
+ </class>
+ 
+ 
+
+</hibernate-mapping>
